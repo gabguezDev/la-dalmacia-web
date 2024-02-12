@@ -1,0 +1,3 @@
+.link {
+  @apply transition-all duration-300 text-base md:text-xl md:hover:text-3xl hover:text-green-500;
+}

@@ -1,0 +1,3 @@
+.bannerImg {
+  @apply object-contain rounded-2xl;
+}

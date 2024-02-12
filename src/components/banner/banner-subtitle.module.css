@@ -1,0 +1,3 @@
+.subtitle {
+  @apply text-lg md:text-3xl font-semibold;
+}

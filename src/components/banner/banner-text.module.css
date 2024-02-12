@@ -1,0 +1,3 @@
+.bannerText {
+  @apply text-lg text-center md:text-xl md:text-left;
+}

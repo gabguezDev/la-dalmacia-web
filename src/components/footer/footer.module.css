@@ -1,0 +1,3 @@
+.footer {
+  @apply sticky w-full text-center xl:absolute xl:bottom-0 xl:left-1/2 xl:-translate-x-1/2 h-fit flex items-center justify-center p-6;
+}

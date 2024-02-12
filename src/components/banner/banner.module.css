@@ -1,0 +1,3 @@
+.banner {
+  @apply flex flex-col xl:flex-row w-full items-center justify-around overflow-hidden;
+}

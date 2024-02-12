@@ -3,25 +3,39 @@
 @tailwind utilities;
 
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+  --default-background-color: white;
+  --default-text-color: black;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+    --default-background-color: white;
+    --default-text-color: black;
   }
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  color: var(--default-text-color);
+  background: var(--default-background-color);
+}
+
+@layer base {
+  h1 {
+    font-weight: bold;
+    font-size: 2rem;
+  }
+}
+
+@layer components {
+  .button {
+    @apply text-2xl font-semibold p-3 px-5 rounded-lg text-white hover:bg-green-600 hover:text-white hover:drop-shadow-md transition-all;
+  }
+
+  .button--primary {
+    @apply bg-green-500;
+  }
+
+  .button--secondary {
+    @apply border border-yellow-800 text-yellow-800 hover:border-none hover:bg-yellow-800 hover:text-white transition-all;
+  }
 }
