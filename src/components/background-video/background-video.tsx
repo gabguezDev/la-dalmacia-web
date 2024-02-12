@@ -1,10 +1,5 @@
-<<<<<<< HEAD
-import React, { useEffect, useRef } from "react";
-=======
 "use client";
-
-import React, { RefObject, useEffect, useRef } from "react";
->>>>>>> 0f6642bc6da71d022f7fd115624e8fee402fb40e
+import React, { useEffect, useRef } from "react";
 
 import BgVideoStyles from "./background-video.module.css";
 
