@@ -20,7 +20,7 @@ export const BackgroundVideo = ({
     <video
       autoPlay={true}
       loop
-      muted={true}
+      //muted={true}
       ref={vidRef as RefObject<HTMLVideoElement>}
       className={className}
     >
