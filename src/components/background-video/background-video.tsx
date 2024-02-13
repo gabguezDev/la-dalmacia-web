@@ -12,16 +12,24 @@ export const BackgroundVideo = ({
   const videoRef = useRef<HTMLVideoElement | null>(null);
 
   useEffect(() => {
-    videoRef.current?.play() as unknown as React.MutableRefObject<HTMLVideoElement>;
-  }, []);
+    const handlePlay = () => {
+      if (videoRef.current) {
+        videoRef.current.load();
+        videoRef.current.play();
+      }
+    };
 
+    handlePlay();
+  }, []);
   return (
     <video
-      autoPlay={true}
       loop
+      autoPlay={true}
       muted={true}
+      playsInline={true}
       ref={videoRef}
       className={className}
+      preload="auto"
     >
       <source src={src} type="video/mp4" />
       Your browser does not support the video tag.

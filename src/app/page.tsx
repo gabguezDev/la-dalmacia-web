@@ -1,3 +1,4 @@
+import { Metadata } from "next";
 import {
   Banner,
   BannerImg,
@@ -11,8 +12,8 @@ import "./globals.css";
 import LoteoLaDalmaciaLogo from "../../public/la-dalmacia-loteo.jpg";
 
 import { BackgroundVideo } from "@/components/background-video/background-video";
+
 import { Button } from "@/components/button/button";
-import { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Inicio | Loteo La Dalmacia ",
