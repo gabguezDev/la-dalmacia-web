@@ -18,10 +18,22 @@ import { Button } from "@/components/button/button";
 import Link from "next/link";
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://www.loteoladalmacia.com/'),
   title: "Inicio | Loteo La Dalmacia ",
+  alternates: {
+    canonical: '/',
+    languages: {
+      'en-US': '/en-US',
+      'de-DE': '/de-DE',
+    },
+  },
   description:
     "Loteo 'La Dalmacia' en Santa Inés, Garupá, Misiones | Gregori - Desarrollo e Inversiones",
+    openGraph: {
+      images: '/og-image.png',
+    },
 };
+
 
 export default function Home() {
   return (
