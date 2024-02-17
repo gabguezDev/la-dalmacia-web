@@ -23,7 +23,7 @@ const DefaultLayout = ({ children }: Props) => {
           width={100}
         />
         <LinksContainer>
-          <NavLink to={"/"}>Inicio</NavLink>
+          <NavLink to={"/"} >Inicio</NavLink>
           <NavLink to={"/info"}>Información</NavLink>
           <NavLink to={"/photos"}>Galería</NavLink>
           <NavLink to={"/contact"}>Contacto</NavLink>

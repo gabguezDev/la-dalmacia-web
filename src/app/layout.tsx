@@ -30,6 +30,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="es">
+      <head>
+        <link rel="icon" href="/favicon.ico" sizes="any" />
+      </head>
       <body className={`${lato.variable} ${mackless_script.variable}`}>
         <Suspense>
           <DefaultLayout>{children}</DefaultLayout>

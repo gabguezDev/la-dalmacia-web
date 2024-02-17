@@ -15,6 +15,8 @@ import { BackgroundVideo } from "@/components/background-video/background-video"
 
 import { Button } from "@/components/button/button";
 
+import Link from "next/link";
+
 export const metadata: Metadata = {
   title: "Inicio | Loteo La Dalmacia ",
   description:
@@ -39,8 +41,12 @@ export default function Home() {
             casa quinta o realizar una inversión?
           </BannerText>
           <div className="flex flex-col lg:flex-row items-center justify-center w-full gap-y-6 lg:gap-x-6">
-            <Button className="button button--primary">Contactanos</Button>
-            <Button className="button button--secondary">Más detalles</Button>
+            <Button className="button button--primary">
+              <Link href={"/contact"}>Contactanos</Link>
+            </Button>
+            <Button className="button button--secondary">
+              <Link href={"/info"}>Más detalles</Link>
+            </Button>
           </div>
         </div>
         <BannerImg

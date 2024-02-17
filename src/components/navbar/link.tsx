@@ -1,4 +1,4 @@
-import React, { AnchorHTMLAttributes } from "react";
+import React from "react";
 
 import Link from "next/link";
 import { Url } from "next/dist/shared/lib/router/router";
