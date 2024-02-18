@@ -39,7 +39,8 @@ export default function Home() {
         <Logo
           src={LoteoLaDalmaciaLogo}
           alt="Logo Loteo La Dalmacia"
-          width={400}
+          width={500}
+          className="w-full"
         />
         <div className="bg-yellow-800 text-white p-4 rounded-lg xl:w-1/3 h-96 flex flex-col items-center justify-between gap-y-4">
           <h2 className="font-bold text-3xl text-center w-full ">
