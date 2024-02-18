@@ -1,6 +1,7 @@
 import { StaticImport } from "next/dist/shared/lib/get-img-props";
 
 import Image from "next/image";
+import Link from "next/link";
 
 type Props = {
   alt: string;
@@ -15,16 +16,18 @@ export const Logo = ({
   src,
   width,
   height,
-  className = "border rounded-lg",
+  className = "border rounded-lg cursor-pointer",
 }: Props) => {
   return (
-    <Image
-      alt={alt}
-      src={src}
-      width={width}
-      height={height}
-      className={className}
-      priority={true}
-    />
+    <Link href={"/"}>
+      <Image
+        alt={alt}
+        src={src}
+        width={width}
+        height={height}
+        className={className}
+        priority={true}
+      />
+    </Link>
   );
 };

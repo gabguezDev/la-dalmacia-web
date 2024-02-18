@@ -36,6 +36,6 @@ body {
   }
 
   .button--secondary {
-    @apply border border-yellow-800 text-yellow-800 hover:border-none hover:bg-yellow-800 hover:text-white transition-all;
+    @apply border border-yellow-800 text-yellow-800 hover:bg-yellow-800 hover:text-white transition-all;
   }
 }

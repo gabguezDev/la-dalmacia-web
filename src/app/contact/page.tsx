@@ -5,9 +5,20 @@ import { Suspense } from "react";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://www.loteoladalmacia.com/info"),
   title: "Contacto | Loteo La Dalmacia ",
+
+  alternates: {
+    canonical: "/",
+    languages: {
+      "es-AR": "/es-AR",
+    },
+  },
   description:
     "Loteo 'La Dalmacia' en Santa Inés, Garupá, Misiones | Gregori - Desarrollo e Inversiones",
+  openGraph: {
+    images: "/og-image.png",
+  },
 };
 
 export default function Home() {
