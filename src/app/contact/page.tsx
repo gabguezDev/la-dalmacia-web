@@ -13,7 +13,6 @@ import { ContactLink } from "@/components/contact-link/contact-link";
 import { Logo } from "@/components/navbar";
 
 import LoteoLaDalmaciaLogo from "../../../public/la-dalmacia-loteo.jpg";
-import { alt } from "../opengraph-image";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://www.loteoladalmacia.com/info"),
