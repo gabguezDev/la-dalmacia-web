@@ -64,6 +64,7 @@ export default function Home() {
                 Barrio Santa Inés, municipio Garupá, provincia de Misiones,
                 Argentina.
               </InfoItem>
+
               <InfoItem fsIcon={faCircleInfo} iconColor="blue">
                 A metros de la ruta 105, con fácil acceso a la ciudad de Posadas
                 y a los principales atractivos turísticos de la zona.
@@ -90,18 +91,21 @@ export default function Home() {
               </InfoItem>
 
               <InfoItem fsIcon={faSquareCheck}>
-                Entorno natural único: varios de los lotes cuentan con
-                plantaciones de pinos y una laguna natural.
+                Entorno natural único: un espacio verde con una laguna natural y
+                varios lotes cuentan con plantaciones de pinos.
               </InfoItem>
+
               <InfoItem fsIcon={faSquareCheck}>
                 Ideal para amantes de la naturaleza y la tranquilidad: un lugar
                 perfecto para disfrutar del aire puro, la paz y el sonido de las
                 aves.
               </InfoItem>
+
               <InfoItem fsIcon={faSquareCheck}>
                 Servicios: agua corriente, energía eléctrica, alumbrado público
-                y calles enripiadas.
+                y cordón cuneta.
               </InfoItem>
+
               <InfoItem fsIcon={faSquareCheck}>
                 Financiación: planes de pago accesibles para que puedas alcanzar
                 tu sueño de vivir en &quot;La Dalmacia&quot;.
