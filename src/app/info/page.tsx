@@ -15,7 +15,6 @@ import { BackgroundVideo } from "@/components/background-video/background-video"
 
 import { Button } from "@/components/button/button";
 
-import LoteoLaDalmaciaLogo from "../../../public/la-dalmacia-loteo.jpg";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
@@ -24,6 +23,7 @@ import {
   faLocationDot,
   faCircleInfo,
 } from "@fortawesome/free-solid-svg-icons";
+
 import { InfoItem } from "@/components/info-item/info-item";
 
 export const metadata: Metadata = {
