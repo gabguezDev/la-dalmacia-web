@@ -71,7 +71,10 @@ export default function Home() {
 
               <br />
               <Button className="button button--secondary self-center flex items-center flex-nowrap gap-x-2">
-                <Link href={"https://maps.app.goo.gl/4Co5hLb5wGNiPJdX9"}>
+                <Link
+                  href={"https://maps.app.goo.gl/4Co5hLb5wGNiPJdX9"}
+                  target="_blank"
+                >
                   Ir a Google Maps
                 </Link>
                 <FontAwesomeIcon
